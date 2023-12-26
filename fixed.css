@@ -1,0 +1,29 @@
+body {
+	position: relative;
+}
+
+div.main_title {
+	position: absolute;
+	top: 28px;
+}
+
+div.fixed {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.curtain {
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	width: 100%;
+	height: 40px;
+	background: linear-gradient(#ffffff, rgba(0, 0, 0, 0) 100%);
+	z-index: 2;
+}
